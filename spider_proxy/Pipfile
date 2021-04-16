@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "http://pypi.douban.com/simple/"
+verify_ssl = false
+
+[dev-packages]
+pytest = "*"
+[packages]
+requests = "*"
+lxml ="*"
+js2py ="*"
+selenium = "*"
+flask = "*"
+flask-restplus = "*"
+flask-cors = "*"
+Flask-APScheduler ="*"
+flask-redis = "*"
+pymysql = "*"
+flask-sqlalchemy = "*"
+
+[requires]
+python_version = "3.7"
